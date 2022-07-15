@@ -48,7 +48,7 @@ function countEvenNumbers(arrayOfNumbers) {
   
   for (i = 0; i < len; i++){
   
-    if (arrayOfNumbers[i] % 2 == 0){
+    if (arrayOfNumbers[i] % 2 === 0){
     
       number++;
       
